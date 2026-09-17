@@ -1,0 +1,13 @@
+{
+  "name": "rep-shim-dev",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agente Comunicador falso para testar sync de REP Control iD fora de producao.",
+  "main": "shim.js",
+  "scripts": {
+    "start": "node shim.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}
